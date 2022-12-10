@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Andale Mono, monospace;
 }
 
 a {
@@ -15,12 +14,85 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+
   body {
-    color: white;
-    background: black;
+   
+    background: rgb(3, 3, 5);
   }
+  img{
+    max-width:450px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    border: thin solid;
+    float: left;
+    margin: 0px 10px 10px 0;
+   
+
+  }
+.number{
+  border:thin solid;
+ width: 2%;
+ margin: 1%;
+ color: antiquewhite;
 }
+.titulop{
+  margin: 0%;
+  background-color: rgb(26, 26, 48);
+box-shadow: 0 0 10px rgb(115, 114, 146);
+  text-align: center;
+  margin-bottom: 4%;
+color: antiquewhite;
+font-size: 20px;
+
+  
+}
+.inicio{
+  background-color: rgb(26, 26, 48);
+box-shadow: 0 0 10px rgb(115, 114, 146);
+  margin-top: 0%;
+  height: 80px; 
+  text-align: center;
+  color: rgb(241, 234, 240);
+}
+.apresenta{
+ color: antiquewhite;
+ 
+}
+.listap{
+
+  color: antiquewhite;
+  padding: 20px;
+display:grid;
+grid-template-columns: repeat(auto-fil,minmax(280px, 1fr));
+gap: 20px;
+background-color: rgb(26, 26, 48);
+box-shadow: 0 0 10px rgb(115, 114, 146);
+transition: transform 100ms ease-in-out;
+
+
+
+}
+.linkp{
+  cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    color: antiquewhite;
+     font-family: 'open_sansregular';
+   
+}
+.descricao{
+  color: antiquewhite;
+  font-size: 20px;
+
+}
+h3{
+  color:antiquewhite;
+  font-size: 20px;
+  padding: 15px;
+}
+
+
